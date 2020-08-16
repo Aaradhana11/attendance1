@@ -6,21 +6,24 @@ body{
 
 }
 .container{
+    color: #fff;
     max-width: 800px;
     height: 700px;
-    border:10px solid rgb(238, 52, 39);
-   border-radius: 30px;
+    border:10px solid rgb(73, 7, 2);
+    border-style: double;
+    border-radius: 2px;
     margin-bottom: 50px;
     margin-top: 50px;   
 }
 .container1{
     max-width: 100%;
     height: 75px;
-    border:2px solid rgb(223, 48, 16);
-   border-radius: 30px;
+    border:8px solid rgb(211, 130, 24);
+    border-style: groove;
+    border-radius: 5px;
     margin-bottom: 50px;
     margin-top: 50px;   
-    background: linear-gradient(to top, rgb(235, 10, 178), #4c09e9);
+    background: linear-gradient(to top, rgb(83, 5, 38), #f73016);
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
 }
@@ -28,7 +31,7 @@ body{
 .header{
     font-family: 'Lemonada', cursive;
     text-align: center;
-    background: linear-gradient(to top, green, #e96e09);
+    background: linear-gradient(to top, rgb(100, 6, 6), #131211);
     -webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 }
@@ -36,48 +39,53 @@ body{
 
 .logbody{
     margin: 10px;
+    color: black;
     
 }
 
 .btn{
     margin: auto;
     padding: 10px 35px;
-    background-color: #09fd09f3;
+    background-color: #e46e0d;
     color: #fff;
     border: none;
     font-size: 22px;
     border-radius: 10px;
-    box-shadow: 15px 15px 25px #a8a8a8;
     transition: box-shadow 0.5s;
     outline: none;
 }
 .btn:hover {
     width: 200px;
     height: 50px;
-    box-shadow: 5px 5px 15px #aaa;
+    box-shadow: 5px 5px 15px rgb(243, 239, 239)49, 24, 24);
     transform:translate(5px,-5px);
     animation:soliution 1s ease-in-out infinite alternate;
+    
+    
 }
 .submit{
     text-align: center;
     box-shadow: 15px 15px 25px #a8a8a8;
     transition: box-shadow 0.5s;
     outline: none;
-    background-color:#09fd09f3;
+    background-color:#e46e0d;
     cursor: pointer;
     max-width: 200px;
     border-radius: 10px;
     margin: auto;
+    
 
 }
 .submit:hover {
-    box-shadow: 5px 5px 15px #aaa;
+    box-shadow: 5px 5px 15px rgb(224, 223, 228);
     transform:translate(5px,-5px);
     animation:soliution 1s ease-in-out infinite alternate;
+    
+
 }
 .submitmsg{
-    font-size: 40px;
-    color: green;
+    font-size: 60spx;
+    color: rgb(16, 19, 2);
     text-align: center;
     font-family: 'Lemonada', cursive;
    
@@ -105,10 +113,10 @@ form{
     
 }
 form label{
-    background: linear-gradient(to top, rgb(231, 26, 180), #e96e09);
+    background: linear-gradient(to top, rgb(190, 63, 4), #110e0b);
     -webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 @keyframes mymove{
@@ -143,12 +151,12 @@ form label{
    }
 
    .color{
-       background-color: red;
+       background-color: #e46e0d;
        border: none;
        border-radius: 10px;
        box-shadow: 15px 15px 25px #a8a8a8;
        transition: box-shadow 0.5s;
-       color: #fff;
+       color: white;
        border: none;
        outline: none;
        
